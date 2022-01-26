@@ -1,0 +1,133 @@
+#div1 {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(2, 33, 68);
+  color: rgb(46, 108, 230);
+  font-size: 30px;
+}
+#div1 .row{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#div1 h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#opbtn {
+  background-color: rgb(6, 60, 122);
+  border-color: rgb(1, 13, 63);
+  color: rgb(255, 255, 255);
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 12px;
+  height: 40px;
+  width: 160px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+#opbtn:hover {
+  background-color: white;
+  color: rgb(2, 33, 67);
+}
+
+#submit {
+  background-color: rgb(45, 158, 60);
+  border-color: #043602;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  color: rgb(255, 255, 255);
+  height: 36px;
+  width: 110px;
+  margin-left: 15px;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 10px;
+  border-color: #003f8c;
+  font-weight: bold;
+  height: 36px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+input[type="number"] {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 10px;
+  border-color: #003f8c;
+  font-weight: bold;
+  height: 36px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  min-height: 650px;
+  /* background-color: rgb(0, 255, 255); */
+  /*background: url("bg-img.jpeg") no-repeat center center fixed;*/
+  background-size: cover;
+  /* height: 100%; Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rows{
+  background-color: #2496ed;
+}
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#op {
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin: auto;
+  margin-right: 15px;
+  min-height: 500px;
+  background-color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  overflow: scroll;
+  border-radius: 10px;
+  text-align: left;
+  word-wrap: inherit;
+  font-weight: bold;
+}
+
+#list {
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+#out {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+#option {
+  margin-top: 15px;
+}
